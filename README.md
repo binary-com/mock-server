@@ -1,16 +1,16 @@
-= Overview
+# Overview
 
 This project provides a mock server for the Binary.com Partner API.
 
-= Installation
+# Installation
 
-== Requirements:
+## Requirements:
 
 1. nodejs
 2. curl
 3. bash
 
-== Installation steps:
+## Installation steps:
 
 1. Install npm dependencies via: `npm install`
 2. Download fixtures data (for this, you will need the access token):
