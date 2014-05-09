@@ -40,7 +40,7 @@ for market in "${markets[@]}"; do
     if ! [ -f "${FSPATH}/markets/${market}.json" ]; then
 
         printf "200 OK\n\n" > ${FSPATH}/markets/${market}.json
-        curl -s -H "Authorization: Bearer ${TOKEN}" "${URL}/${market}" | python -mjson.tool >> ${FSPATH}/markets/${market}.json
+        curl -s -H "Authorization: Bearer ${TOKEN}" "${URL}/markets/${market}" | python -mjson.tool >> ${FSPATH}/markets/${market}.json
 
     fi
 done

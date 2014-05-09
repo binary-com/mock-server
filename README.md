@@ -18,4 +18,4 @@ This project provides a mock server for the Binary.com Partner API.
     `./bootstrap.sh TOKEN`
 
 3. Run the mock server `./node_modules/.bin/mock-api-server --port 7000`
-4. Enjoy :-)
+4. Enjoy :-) And remember to set your ulimit to circa 4096 (to avoid running out of available file handles) - you may be able to do so as follows `ulimit -n 4096`
